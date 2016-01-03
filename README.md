@@ -2,7 +2,7 @@
 Java library for interest calculation of saving
 
 # Usage
-```
+```java
 // Create FixedDeposit instance
 FixedDeposit fd = new FixedDeposit();
 fd.setStartDate(new DateTime());
@@ -16,9 +16,9 @@ fd.moneyAtTheLastMonth();
 fd.interestAtTheLastMonth();
 ```
 
-```
+```java
 // Create RecurringDeposit instance
-rd = new RecurringDeposit();
+RecurringDeposit rd = new RecurringDeposit();
 rd.setStartDate(new DateTime());
 rd.setMonths(12);
 rd.setInterestRate(0.032);
