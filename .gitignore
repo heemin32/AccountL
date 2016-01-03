@@ -1,5 +1,8 @@
 *.class
 
+#Ignore build folder
+/build
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
