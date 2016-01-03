@@ -12,6 +12,20 @@ fd.setTaxRate(0.154);
 fd.setSeedMoney(10000000L);
 
 // Get money and interest after given months
-fd.moneyAtTheLastMonth(5);
-fd.interestAtTheLastMonth(23);
+fd.moneyAtTheLastMonth();
+fd.interestAtTheLastMonth();
+```
+
+```
+// Create RecurringDeposit instance
+rd = new RecurringDeposit();
+rd.setStartDate(new DateTime());
+rd.setMonths(12);
+rd.setInterestRate(0.032);
+rd.setTaxRate(0.154);
+rd.setSeedMoney(100000L);
+
+// Get money and interest after given months
+fd.moneyAtTheLastMonth();
+fd.interestAtTheLastMonth();
 ```
